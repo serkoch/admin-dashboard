@@ -8,36 +8,37 @@
   </head>
   <body>
     <div class="container">
-      <div class="sidebar"></div>
-      <nav class="nav-buttons">
-        <div class="logo"><img src="assets/icons/view-dashboard-variant.svg" alt="" />Dashboard</div>
-        <ul class="nav-basic">
-          <li class="home"><img src="assets/icons/home.svg" alt="" />Home</li>
-          <li class="profile"><img src="assets/icons/card-account-details.svg" alt="" />Profile</li>
-          <li class="messages"><img src="assets/icons/message-text.svg" alt="" />Messages</li>
-          <li class="history"><img src="assets/icons/history.svg" alt="" />History</li>
-          <li class="tasks"><img src="assets/icons/clipboard-list.svg" alt="" />Tasks</li>
-          <li class="communities"><img src="assets/icons/account-group.svg" alt="" />Communities</li>
-        </ul>
-        <ul class="nav-advance">
-          <li class="settings"><img src="assets/icons/cog.svg" alt="" />Settings</li>
-          <li class="support"><img src="assets/icons/help-circle.svg" alt="" />Support</li>
-          <li class="privacy"><img src="assets/icons/shield-check.svg" alt="" />Privacy</li>
-        </ul>
-      </nav>
+      <div class="sidebar">
+        <nav class="nav-buttons">
+          <div class="logo"><img src="assets/icons/view-dashboard.svg" alt="" />Dashboard</div>
+          <ul class="nav-basic">
+            <li class="home"><img src="assets/icons/home.svg" alt="" />Home</li>
+            <li class="profile"><img src="assets/icons/card-account-details.svg" alt="" />Profile</li>
+            <li class="messages"><img src="assets/icons/message-text.svg" alt="" />Messages</li>
+            <li class="history"><img src="assets/icons/history.svg" alt="" />History</li>
+            <li class="tasks"><img src="assets/icons/clipboard-list.svg" alt="" />Tasks</li>
+            <li class="communities"><img src="assets/icons/account-group.svg" alt="" />Communities</li>
+          </ul>
+          <ul class="nav-advance">
+            <li class="settings"><img src="assets/icons/cog.svg" alt="" />Settings</li>
+            <li class="support"><img src="assets/icons/help-circle.svg" alt="" />Support</li>
+            <li class="privacy"><img src="assets/icons/shield-check.svg" alt="" />Privacy</li>
+          </ul>
+        </nav>
+      </div>
       <div class="header">
         <div class="head-top">
           <img src="assets/icons/magnify.svg" alt="" />
           <input type="search" name="search" id="search" />
           <div class="notifications"><img src="assets/icons/bell-ring.svg" alt="" /></div>
-          <div class="profile-photo"><img src="assets/avatars/a_0.png" alt="" /></div>
+          <div class="profile-photo"><img src="assets/avatars/a0.png" alt="" /></div>
           <div class="profile-name">Sergey Kochetkoff</div>
         </div>
         <div class="head-bottom">
-          <div class="profile-photo big"><img src="assets/avatars/a_0.png" alt="" /></div>
+          <div class="profile-photo big"><img src="assets/avatars/a0.png" alt="" /></div>
           <div class="greeting">
             <p>Hi there,</p>
-            <h4>Sergey Kochetkoff(@serkoch)</h4>
+            <h4>Sergey Kochetkoff (@serkoch)</h4>
           </div>
           <div class="create">
             <button type="button">New</button>
@@ -52,26 +53,56 @@
           <div class="project card1">
             <h5>Sign up form</h5>
             <p>The Odin Project</p>
+            <div class="links">
+              <a href=""><img src="assets/icons/star-plus-outline.svg" alt=""></a>
+              <a href=""><img src="assets/icons/eye-plus-outline.svg" alt=""></a>
+              <a href=""><img src="assets/icons/share-variant-outline.svg" alt=""></a>
+            </div>
           </div>
           <div class="project card2">
             <h5>Calculator</h5>
             <p>The Odin Project</p>
+            <div class="links">
+              <a href=""><img src="assets/icons/star-plus-outline.svg" alt=""></a>
+              <a href=""><img src="assets/icons/eye-plus-outline.svg" alt=""></a>
+              <a href=""><img src="assets/icons/share-variant-outline.svg" alt=""></a>
+            </div>
           </div>
           <div class="project card3">
             <h5>Etch-a-Sketch</h5>
             <p>The Odin Project</p>
+            <div class="links">
+              <a href=""><img src="assets/icons/star-plus-outline.svg" alt=""></a>
+              <a href=""><img src="assets/icons/eye-plus-outline.svg" alt=""></a>
+              <a href=""><img src="assets/icons/share-variant-outline.svg" alt=""></a>
+            </div>
           </div>
           <div class="project card4">
             <h5>Rock, Paper, Scissors</h5>
             <p>The Odin Project</p>
+            <div class="links">
+              <a href=""><img src="assets/icons/star-plus-outline.svg" alt=""></a>
+              <a href=""><img src="assets/icons/eye-plus-outline.svg" alt=""></a>
+              <a href=""><img src="assets/icons/share-variant-outline.svg" alt=""></a>
+            </div>
           </div>
           <div class="project card5">
             <h5>Landing Page</h5>
             <p>The Odin Project</p>
+            <div class="links">
+              <a href=""><img src="assets/icons/star-plus-outline.svg" alt=""></a>
+              <a href=""><img src="assets/icons/eye-plus-outline.svg" alt=""></a>
+              <a href=""><img src="assets/icons/share-variant-outline.svg" alt=""></a>
+            </div>
           </div>
           <div class="project card6">
             <h5>Recipes</h5>
             <p>The Odin Project</p>
+            <div class="links">
+              <a href=""><img src="assets/icons/star-plus-outline.svg" alt=""></a>
+              <a href=""><img src="assets/icons/eye-plus-outline.svg" alt=""></a>
+              <a href=""><img src="assets/icons/share-variant-outline.svg" alt=""></a>
+            </div>
           </div>
         </div>
         <div class="announce">
@@ -92,27 +123,35 @@
           </ul>
         </div>
         <div class="trending">
-          <h5>Trending</h5>
+          <h5 class="trending-label">Trending</h5>
           <ul class="trend-list">
             <li class="trend-1">
-              <img src="" alt="" />
-              <h6>@tegan</h6>
-              <p>World Peace Builder</p>
+              <img src="assets/avatars/a1.png" alt="" />
+              <div>
+                <h6>@tegan</h6>
+                <p>World Peace Builder</p>
+              </div>
             </li>
             <li class="trend-2">
-              <img src="" alt="" />
-              <h6>@morgan</h6>
-              <p>Super Cool Project</p>
+              <img src="assets/avatars/a2.png" alt="" />
+              <div>
+                <h6>@morgan</h6>
+                <p>Super Cool Project</p>
+              </div>
             </li>
             <li class="trend-3">
-              <img src="" alt="" />
-              <h6>@kendall</h6>
-              <p>Life Changing App</p>
+              <img src="assets/avatars/a3.png" alt="" />
+              <div>
+                <h6>@kendall</h6>
+                <p>Life Changing App</p>
+              </div>
             </li>
             <li class="trend-4">
-              <img src="" alt="" />
-              <h6>@alex</h6>
-              <p>No Traffic Maker</p>
+              <img src="assets/avatars/a4.png" alt="" />
+              <div>
+                <h6>@alex</h6>
+                <p>No Traffic Maker</p>
+              </div>
             </li>
           </ul>
         </div>
