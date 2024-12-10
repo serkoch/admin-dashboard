@@ -162,6 +162,12 @@ html, body {
   flex-flow: column;
 }
 
+.project h5 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
 .project img {
   height: 100%;
   border-radius: 50%;
@@ -210,6 +216,10 @@ html, body {
   font-size: 0.7rem;
 }
 
+.announce-list h6 {
+  font-weight: 600;
+}
+
 .announce-1, .announce-2 {
   border-bottom: 1px solid lightgray;
 }
@@ -233,6 +243,11 @@ html, body {
   display: flex;
   align-items: center;
   gap: 1rem;
+}
+
+.trend-list h6 {
+  font-size: 0.8rem;
+  font-weight: 600;
 }
 
 .trend-list img {
