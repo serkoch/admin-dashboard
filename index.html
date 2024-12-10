@@ -1,118 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Admin Dashboard</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="container">
-    <div class="sidebar"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar"></div>
       <nav class="nav-buttons">
-        <div class="logo"><img src="assets/icons/view-dashboard-variant.svg" alt="">Dashboard</div>
+        <div class="logo"><img src="assets/icons/view-dashboard-variant.svg" alt="" />Dashboard</div>
         <ul class="nav-basic">
-          <li class="home"><img src="assets/icons/home.svg" alt="">Home</li>
-          <li class="profile"><img src="assets/icons/card-account-details.svg" alt="">Profile</li>
-          <li class="messages"><img src="assets/icons/message-text.svg" alt="">Messages</li>
-          <li class="history"><img src="assets/icons/history.svg" alt="">History</li>
-          <li class="tasks"><img src="assets/icons/clipboard-list.svg" alt="">Tasks</li>
-          <li class="communities"><img src="assets/icons/account-group.svg" alt="">Communities</li>
+          <li class="home"><img src="assets/icons/home.svg" alt="" />Home</li>
+          <li class="profile"><img src="assets/icons/card-account-details.svg" alt="" />Profile</li>
+          <li class="messages"><img src="assets/icons/message-text.svg" alt="" />Messages</li>
+          <li class="history"><img src="assets/icons/history.svg" alt="" />History</li>
+          <li class="tasks"><img src="assets/icons/clipboard-list.svg" alt="" />Tasks</li>
+          <li class="communities"><img src="assets/icons/account-group.svg" alt="" />Communities</li>
         </ul>
         <ul class="nav-advance">
-          <li class="settings"><img src="assets/icons/cog.svg" alt="">Settings</li>
-          <li class="support"><img src="assets/icons/help-circle.svg" alt="">Support</li>
-          <li class="privacy"><img src="assets/icons/shield-check.svg" alt="">Privacy</li>
+          <li class="settings"><img src="assets/icons/cog.svg" alt="" />Settings</li>
+          <li class="support"><img src="assets/icons/help-circle.svg" alt="" />Support</li>
+          <li class="privacy"><img src="assets/icons/shield-check.svg" alt="" />Privacy</li>
         </ul>
-      </nav>      
-    <div class="header">
-      <div class="head-top">
-        <input type="search" name="search" id="search">
-        <div class="notifications"></div>
-        <div class="profile-photo"></div>
-        <div class="profile-name">Sergey Kochetkoff</div>
-      </div>
-      <div class="head-bottom">
-        <div class="profile-photo"></div>
-        <div class="greeting">
-          <p>Hi there,</p>
-          <h4>Sergey Kochetkoff(@serkoch)</h4>
+      </nav>
+      <div class="header">
+        <div class="head-top">
+          <img src="assets/icons/magnify.svg" alt="" />
+          <input type="search" name="search" id="search" />
+          <div class="notifications"><img src="assets/icons/bell-ring.svg" alt="" /></div>
+          <div class="profile-photo"><img src="assets/avatars/a_0.png" alt="" /></div>
+          <div class="profile-name">Sergey Kochetkoff</div>
         </div>
-        <div class="create">
-          <button type="button">New</button>
-          <button type="button">Upload</button>
-          <button type="button">Share</button>
+        <div class="head-bottom">
+          <div class="profile-photo big"><img src="assets/avatars/a_0.png" alt="" /></div>
+          <div class="greeting">
+            <p>Hi there,</p>
+            <h4>Sergey Kochetkoff(@serkoch)</h4>
+          </div>
+          <div class="create">
+            <button type="button">New</button>
+            <button type="button">Upload</button>
+            <button type="button">Share</button>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <div class="project-cards">
+          <h5 class="project-label">Projects</h5>
+          <div class="project card1">
+            <h5>Sign up form</h5>
+            <p>The Odin Project</p>
+          </div>
+          <div class="project card2">
+            <h5>Calculator</h5>
+            <p>The Odin Project</p>
+          </div>
+          <div class="project card3">
+            <h5>Etch-a-Sketch</h5>
+            <p>The Odin Project</p>
+          </div>
+          <div class="project card4">
+            <h5>Rock, Paper, Scissors</h5>
+            <p>The Odin Project</p>
+          </div>
+          <div class="project card5">
+            <h5>Landing Page</h5>
+            <p>The Odin Project</p>
+          </div>
+          <div class="project card6">
+            <h5>Recipes</h5>
+            <p>The Odin Project</p>
+          </div>
+        </div>
+        <div class="announce">
+          <h5 class="announce-label">Announcements</h5>
+          <ul class="announce-list">
+            <li class="announce-1">
+              <h6>Some text</h6>
+              <p>Some more text and even more text that makes this paragraph even longer and longer till it reaches the desired length</p>
+            </li>
+            <li class="announce-2">
+              <h6>Some text</h6>
+              <p>Some more text and even more text that makes this paragraph even longer and longer till it reaches the desired length</p>
+            </li>
+            <li class="announce-3">
+              <h6>Some text</h6>
+              <p>Some more text and even more text that makes this paragraph even longer and longer till it reaches the desired length</p>
+            </li>
+          </ul>
+        </div>
+        <div class="trending">
+          <h5>Trending</h5>
+          <ul class="trend-list">
+            <li class="trend-1">
+              <img src="" alt="" />
+              <h6>@tegan</h6>
+              <p>World Peace Builder</p>
+            </li>
+            <li class="trend-2">
+              <img src="" alt="" />
+              <h6>@morgan</h6>
+              <p>Super Cool Project</p>
+            </li>
+            <li class="trend-3">
+              <img src="" alt="" />
+              <h6>@kendall</h6>
+              <p>Life Changing App</p>
+            </li>
+            <li class="trend-4">
+              <img src="" alt="" />
+              <h6>@alex</h6>
+              <p>No Traffic Maker</p>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
-    <div class="content">
-      <div class="project-cards">
-        <div class="project card1">
-          <h5>Sign up form</h5>
-          <p>The Odin Project</p>
-        </div>
-        <div class="project card2">
-          <h5>Calculator</h5>
-          <p>The Odin Project</p>
-        </div>
-        <div class="project card3">
-          <h5>Etch-a-Sketch</h5>
-          <p>The Odin Project</p>
-        </div>
-        <div class="project card4">
-          <h5>Rock, Paper, Scissors</h5>
-          <p>The Odin Project</p>
-        </div>
-        <div class="project card5">
-          <h5>Landing Page</h5>
-          <p>The Odin Project</p>
-        </div>
-        <div class="project card6">
-          <h5>Recipes</h5>
-          <p>The Odin Project</p>
-        </div>
-      </div>
-      <div class="announce">
-        <ul class="announce-list">
-          <li class="announce-1">
-            <h6>Some text</h6>
-            <p>Some more text and even more text that makes this paragraph even longer and longer till it reaches the desired length</p>
-          </li>
-          <li class="announce-2">
-            <h6>Some text</h6>
-            <p>Some more text and even more text that makes this paragraph even longer and longer till it reaches the desired length</p>
-          </li>
-          <li class="announce-3">
-            <h6>Some text</h6>
-            <p>Some more text and even more text that makes this paragraph even longer and longer till it reaches the desired length</p>
-          </li>
-        </ul>
-      </div>
-      <div class="trending">
-        <ul class="trend-list">
-          <li class="trend-1">
-            <img src="" alt="">
-            <h6>@tegan</h6>
-            <p>World Peace Builder</p>
-          </li>
-          <li class="trend-2">
-            <img src="" alt="">
-            <h6>@morgan</h6>
-            <p>Super Cool Project</p>
-          </li>
-          <li class="trend-3">
-            <img src="" alt="">
-            <h6>@kendall</h6>
-            <p>Life Changing App</p>
-          </li>
-          <li class="trend-4">
-            <img src="" alt="">
-            <h6>@alex</h6>
-            <p>No Traffic Maker</p>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</body>
+  </body>
 </html>
